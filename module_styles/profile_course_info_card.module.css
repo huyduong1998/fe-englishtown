@@ -1,0 +1,44 @@
+.CourseInfo{
+    flex-direction: column;
+    width: 100%;
+    text-align: start;
+}
+
+.CourseInfo > h3{
+    color: #194761;
+    font-size: 16;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.CourseInfo > p{
+    color: #8995A3;
+    font-size: 14;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.Achievement{
+    flex-direction: row;
+    display: flex;
+}
+
+
+.AchievementView{
+    flex-direction: column;
+    flex: 1;
+}
+
+.AchievementView > h4{
+    color: #FF981F;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.AchievementView > p{
+    color: #8995A3;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+}

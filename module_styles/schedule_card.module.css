@@ -1,0 +1,74 @@
+.ScheduleCard {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.BlockTime {
+    width: 12%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.BlockTime >p:first-child{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.BlockTime >p:last-child{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.CardRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 40px;
+    padding: 20px;
+    border: 1px solid #D1D8DF;
+    border-left: unset;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+}
+.ScheduleClassInfo{
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.ScheduleClassInfoForm{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.CardRightItem{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.CardRightItem:last-child{
+    margin-right: 0px;
+}
+
+
+.ButtonLayout{
+    width: 15%;
+    border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+.AppLoading{
+    width: 100% !important;
+    height: 100% !important;
+    position: fixed !important;
+    background-color: black;
+    opacity: 0.25 !important;
+    align-items: center;
+    display: flex;
+    z-index: 3;
+}

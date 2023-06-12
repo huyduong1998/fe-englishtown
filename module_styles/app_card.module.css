@@ -1,0 +1,7 @@
+.AppCard{
+    padding: 12px;
+    background-color: #FAFBFC;
+    border-radius: 12px;
+    flex-direction: column;
+    border: 1px solid #CED5DF;
+}

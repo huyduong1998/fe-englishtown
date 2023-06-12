@@ -1,0 +1,45 @@
+.CourseCard{
+    width: 22%;
+    border-radius: 16px;
+    border: 1px solid #E8EAED;
+    margin-right: 24px;
+}
+
+.Image{
+    width: 100%;
+    height: 180px;
+    border: none;
+    position: relative;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.CourseContent{
+    padding: 12px;
+    text-align: start;
+    color: #194761;
+    font-weight: 400;
+}
+
+.CourseContent .Name{
+    margin: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.CourseContent .Description{
+    margin: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}

@@ -1,0 +1,8 @@
+.ButtonTabForm{
+    padding: 4px;
+    background-color: rgba(242, 245, 247, 0.88);
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+}

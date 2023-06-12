@@ -1,0 +1,63 @@
+.LoginPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .LoginLogo {
+    width: 60%;
+    height: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 100px;
+  }
+
+  .LoginLogo > img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .LoginForm {
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    margin: 4% 10%;
+    padding-bottom: 10%;
+  }
+  
+  .LoginFormTitle {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .LoginFormTitle > h2 {
+    font-size: 36;
+    font-weight: 600;
+    color: #194761;
+  }
+
+  .LoginFormTitle > p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5d7888;
+    text-align: center;
+  }
+  
+  .LoginForm > p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5d7888;
+    text-align: center;
+  }
+
+  .LoginForm > p > span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #194761;
+  }
+
+  .LoginError{
+    font-size: 11px;
+    color: #FF434E;
+    font-weight: 400;
+  }

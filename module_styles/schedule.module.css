@@ -1,0 +1,94 @@
+.ScheduleLayout{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.UserInfoForm{
+    width: 25%;
+    padding: 30px 3%;
+    height: 100%;
+}
+
+.UserInfoForm > h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #194761;
+}
+
+.CourseInfo{
+    width: 100%;
+    height: 70%;
+    overflow: auto;
+}
+
+.ScheduleForm{
+    width: 74%;
+    height: 100%;
+    padding: 30px 2%;
+}
+
+.ScheduleSetting{
+    display: flex;
+    width: 100%;
+}
+
+.ScheduleDropdown{
+   flex: 40%;
+   display: flex;
+}
+
+.SettingButton{
+    flex: 60%;
+    margin-left: 3%;
+}
+
+.ScheduleClassForm {
+    height: 90%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Schedule{
+    height: 80%;
+    overflow: auto;
+    padding: 12px 0px;
+}
+
+
+
+
+.ScheduleClassUpComingForm{
+    height: 80%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ScheduleClassUpComingTableForm{
+    height: 100%;
+    overflow: auto;
+    padding: 12px 0px;
+}
+
+.BottomDetail{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.BottomDetail :first-child{
+    margin-right: 24px;
+}
+
+
+.EventWeelyForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,40 @@
+.DividerText {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .DividerText::before,
+  .DividerText::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(232, 234, 237, 0.72);
+  }
+  
+  .DividerText:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .DividerText:not(:empty)::after {
+    margin-left: .25em;
+  }
+
+.DividerText > p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #A6B2BF;
+}
+
+.Divider{
+    display: flex;
+    width: 100%;
+    height: 0.5px;
+    background-color: rgba(232, 234, 237, 0.72);
+}
+
+
+.VerticalDivider{
+    width: 0.5px;
+    height: 100%;
+    background-color: rgba(232, 234, 237, 0.72);
+}

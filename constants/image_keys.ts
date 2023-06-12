@@ -1,0 +1,3 @@
+class ImageKeys {
+  static loginGirl = "";
+}

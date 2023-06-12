@@ -1,0 +1,58 @@
+.DropDownForm{
+    padding: 8px 6px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(242, 245, 247, 0.88);
+    align-items: center;
+    border: none;
+    border-radius: 56px;
+    padding: 12px 8px;
+    flex: 1;
+}
+
+.DropDownForm > select{
+    width: 100%;
+    min-width: 30%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 500;
+    color: #194761;
+}
+
+.DropdownPopopForm{
+    padding:  0px 2px;
+    border: none;
+}
+
+.DropdownPopopForm > select{
+    border: none;
+    width: 20px;
+    background-color: transparent;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 500;
+    color: #194761;
+}
+
+.FlagDropDown{
+    padding: 8px 6px;
+    align-items: center;
+    border: none;
+}
+
+.FlagDropDown > select{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}

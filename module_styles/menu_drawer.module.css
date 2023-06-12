@@ -1,0 +1,134 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.overlayOpen {
+  opacity: 1;
+  z-index: 2147483647;
+  visibility: visible;
+}
+.overlayHidden {
+  opacity: 0;
+  z-index: -1;
+  visibility: hidden;
+  transition: 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.drawer {
+  top: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: 0;
+  z-index: 2147483647;
+  position: fixed;
+  overflow-y: auto;
+  flex-direction: column;
+  background-color: rgb(0, 79, 114);
+  width: 300px;
+  flex-shrink: 0;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+
+.hidden {
+  visibility: hidden;
+  width: 240px;
+  transform: translateX(240px);
+  flex-shrink: 0;
+  transition: 325ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.animate {
+  visibility: visible;
+  transform: none;
+  box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+}
+.right {
+  right: 0;
+  left: auto;
+}
+
+.User{
+  display: flex;
+  padding: 12px 12px;
+  align-items: center;
+}
+
+.User > div > p{
+  font-weight: 400;
+  font-size: 12px;
+  overflow: hidden;
+  color: white;
+  text-overflow: ellipsis;
+  font-family: "SVN-Be Cool.otf";
+  line-height: 12px;
+  margin: 8px 0px;
+} 
+
+.User > div > h4{
+  font-weight: 600;
+  font-size: 14px;
+  overflow: hidden;
+  color: white;
+  text-overflow: ellipsis;
+  font-family: "SVN-Be Cool.otf";
+  line-height: 14px;
+  margin: 8px 0px;
+} 
+
+.User > div{
+  padding: 0px 6px;
+  flex: 1;
+}
+
+.AuthentiationForm{
+  padding: 24px 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.ul{
+  list-style-type: none;
+  cursor: pointer;
+  padding: 0px 12px;
+  margin: 0;
+}
+
+.ul > li{
+  padding-top: 12px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: start;
+  font-family: "SVN-Be Cool.otf";
+}
+
+.Divider{
+  background-color: white;
+  width: 100%;
+  height: 0.2px;
+  margin-bottom: 12px;
+}
+
+.SpacingMenu{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 12px;
+  text-decoration: underline;
+}
+
+.SpacingMenu .Link{
+  color: white;
+  font-family: "SVN-Be Cool.otf";
+}
+

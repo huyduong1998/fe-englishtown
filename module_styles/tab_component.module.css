@@ -1,0 +1,41 @@
+.TabComponent{
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.TabComponent :-webkit-scrollbar-thumb:hover {
+    background-color: transparent;
+}
+.TabComponent ::-webkit-scrollbar {
+    height: 2px;
+}
+
+.TabComponent ::-webkit-scrollbar-track {
+    background-color: transparent
+}
+
+.TabComponent ::-webkit-scrollbar-thumb{
+    background-color: transparent
+}
+
+.TabElement{
+    text-align: center;
+    padding: 12px 12px;
+    position: relative;
+}
+
+.TabElement .Title{
+    color: #194761;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.Indicator{
+    transition: 600ms;
+    position: absolute;
+    width: 100%;
+    background-color: #FABB18;
+    height: 1px;
+}

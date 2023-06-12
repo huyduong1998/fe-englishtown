@@ -1,0 +1,149 @@
+.ClassInfoForm {
+    display: flex;
+    text-align: start;
+    line-height: 0px;
+}
+.ClassInfoForm .Left {
+    width: 60%;
+}
+
+.ClassInfoForm .Right {
+    width: 40%;
+}
+
+.Info {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.Info>img {
+    height: 24px;
+    width: 24px;
+}
+
+.Info>div>h4 {
+    color:#8995A3;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Info > div{
+    padding-left: 12px;
+}
+
+.Info > div > p{
+    color :#194761;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ClassDetailForm>h2 {
+    color: #194761;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 12px;
+}
+
+.ClassDetailForm > h3{
+    color: #8995A3;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.Lesson{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Lesson >img{
+    border-radius: 0%;
+}
+
+.LessonInfo{
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 60%;
+}
+
+.LessonInfo >h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #194761;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.LessonInfo> p{
+    color: #5D6A7A;
+    font-size: 14px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.LessonAction{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.LessonAction > div{
+    margin-left: 2px;
+}
+
+.LessonButton{
+    display: flex;
+    align-items: center;
+}
+
+.LessonButton > img{
+    height: 20px;
+    width: 20px;
+}
+
+.LessonButton > p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #5D6A7A;
+    margin-left: 6px;
+}
+
+.MyAccountForm{
+    display: flex;
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    color: #194761;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.MyAccountForm > h4{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 12px;
+    color: #194761;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ButtonForm{
+    display: flex;
+    justify-content: end;
+}
+
+.ClassActionForm{
+    text-align: center;
+}
+
+.ClassActionForm > img{
+    padding: 12px 0px;
+    width: 10%;
+    height: 6%;
+}
